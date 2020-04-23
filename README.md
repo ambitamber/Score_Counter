@@ -12,4 +12,4 @@ This sample uses the Gradle build system. To build this project, use the "gradle
 
 ## Screenshot of the App
 
- ![Main Window](https://github.com/ambitamber/Score_Counter/blob/master/screenshoot.png)
+ ![Main Window](https://github.com/ambitamber/Score_Counter/blob/master/Screenshot.PNG)
