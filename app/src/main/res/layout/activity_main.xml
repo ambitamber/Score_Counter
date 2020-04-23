@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="6dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Team A"
+                android:textColor="@color/textcolor"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/teamASocre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="@color/textcolor"
+                android:textSize="90sp"
+                tools:text="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/score"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="45dp"
+                android:text="@string/one_point"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/teamAaddOne"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/teamAOnepointview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/zero"
+                    android:textColor="@color/textcolor" />
+
+                <Button
+                    android:id="@+id/teamAminusOne"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/minus"
+                    android:textColor="@color/whitecolor" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="Two Points"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/teamAaddTwo"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/teamATwopointview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/zero"
+                    android:textColor="@color/textcolor" />
+
+                <Button
+                    android:id="@+id/teamAminusTwo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/minus"
+                    android:textColor="@color/whitecolor" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="Three Points"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/teamAaddThree"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/teamAThreepointview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/zero"
+                    android:textColor="@color/textcolor" />
+
+                <Button
+                    android:id="@+id/teamAminusThree"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/minus"
+                    android:textColor="@color/whitecolor" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Team B"
+                android:textColor="@color/textcolor"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/teamBSocre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/textcolor"
+                android:textSize="90sp"
+                tools:text="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Score"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="45dp"
+                android:text="@string/one_point"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/teamBaddOne"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/teamBOnepointview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/zero"
+                    android:textColor="@color/textcolor" />
+
+                <Button
+                    android:id="@+id/teamBminusOne"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/minus"
+                    android:textColor="@color/whitecolor" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="Two Points"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/teamBaddTwo"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/teamBTwopointview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/zero"
+                    android:textColor="@color/textcolor" />
+
+                <Button
+                    android:id="@+id/teamBminusTwo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/minus"
+                    android:textColor="@color/whitecolor" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="Three Points"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/teamBaddThree"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:text="@string/plus"
+                    android:textColor="@color/whitecolor" />
+
+                <TextView
+                    android:id="@+id/teamBThreepointview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/zero"
+                    android:textColor="@color/textcolor" />
+
+                <Button
+                    android:id="@+id/teamBminusThree"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/minus"
+                    android:textColor="@color/whitecolor" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_shape_round"
+        android:onClick="reset"
+        android:text="Reset"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>
